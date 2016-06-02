@@ -1,0 +1,90 @@
+/* Whole Page */
+body {
+background: rgb(19, 52, 83);
+font: 100% 'EB Garamond', serif;
+margin: auto;
+padding: 1% 0 1%;
+width: 75%;
+font-size: 1.53vw;
+}
+#wrapper {
+background: rgb(255, 255, 255);
+overflow: auto;
+padding: 4%;
+}
+a {
+text-decoration: none;
+color: rgb(0,100,185);
+}
+a:hover {
+color: #00e;
+text-decoration: underline;
+}
+/* Header */
+.content img {
+display: block;
+}
+#top {
+width: 100%;
+}
+#left {
+float: left;
+width: 33.33%;
+text-align: left;
+}
+#right {
+float: right;
+text-align: right;
+width: 33.33%;
+}
+#center {
+margin: 0 auto;
+text-align: center;
+width: 33.33%;
+}
+#picture {
+width: 65%;
+}
+/* Content */
+#gradecalc {
+width: 35%;
+heihgt: 35%
+}
+#current,
+#past {
+display: inline;
+float: left;
+list-style-type: none;
+margin: auto;
+}
+#current img {
+width: 65%;
+}
+h1,
+h2,
+h3 {
+font-weight: normal;
+margin: 0%;
+}
+h1 {
+font-size: 200%;
+text-align: center;
+font-size: 3vw;
+}
+h2 {
+font-size: 150%;
+color: rgb(19, 52, 83);
+font-size: 2.45vw;}
+h3 {
+font-size: 125%;
+}
+.toggle {
+font-weight: bold;
+font-size: 70%;
+padding-right: 2%;
+}
+/* No JS */
+#nojs {
+color: white;
+}
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
